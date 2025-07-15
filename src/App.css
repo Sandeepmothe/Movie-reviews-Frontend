@@ -1,0 +1,80 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.inputContainer{
+  margin-bottom: 1rem;
+}
+.box-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box-list li {
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.box-list li:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.box-list button{
+  width: 6rem;
+  height: 25px;
+  font-size: 16px;
+  padding: 0;
+}
+
+
+/* Style input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fefefe;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+  border-color: #525a64;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+/* Style buttons */
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #515d6a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: #0056b3;
+}
