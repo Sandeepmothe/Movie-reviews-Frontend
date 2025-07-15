@@ -17,8 +17,8 @@ A full-stack web application where users can post, edit, and delete reviews for 
 
 ## 📸 Screenshots
 
-![App Screenshot ](<img width="1915" height="968" alt="Screenshot 2025-07-15 122548" src="https://github.com/user-attachments/assets/4b1fcf91-574f-4b2f-9ee6-167b672a143b" />
-)
+<img width="1915" height="968" alt="kndsf;l" src="https://github.com/user-attachments/assets/b461799d-6cb7-443c-a22c-1a18e1a21c28" />
+
 
 ## ⚙️ How It Works
 
