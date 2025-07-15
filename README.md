@@ -1,12 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎬 Movie Review App
 
-Currently, two official plugins are available:
+A full-stack web application where users can post, edit, and delete reviews for their favorite movies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+- **Frontend:** [movie-frontend on Netlify](https://chimerical-jalebi-cb4e75.netlify.app)
+- **Backend:** [[movie-backend on Railway](https://movie-reviews-production-bd79.up.railway.app/api/reviews](https://movie-reviews-production-bd79.up.railway.app/api/reviews))
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- **Frontend:** React + Vite + Axios + CSS
+- **Backend:** Node.js + Express.js + Sequelize
+- **Database:** MySQL (hosted on Railway)
+- **Deployment:** Netlify (Frontend), Railway (Backend & DB)
+
+## 📸 Screenshots
+
+![App Screenshot ](<img width="1915" height="968" alt="Screenshot 2025-07-15 122548" src="https://github.com/user-attachments/assets/4b1fcf91-574f-4b2f-9ee6-167b672a143b" />
+)
+
+## ⚙️ How It Works
+
+### ✨ Features
+
+- Submit movie reviews
+- Update existing reviews
+- Delete reviews
+- Live sync with MySQL database
+
+### Backend Code
+[Click Here](https://github.com/Sandeepmothe/Movie-reviews-Backend)
