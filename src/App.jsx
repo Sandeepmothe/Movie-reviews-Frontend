@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = `${VITE_API_URL}/api/reviews`;
+const API_URL = `${import.meta.env.VITE_API_URL}/api/reviews`;
 
 function App() {
   const [reviews, setReviews] = useState([]);
